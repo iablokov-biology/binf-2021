@@ -1,0 +1,684 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.11.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "ncbi16s"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 2,
+        "sc_mismatch": -3,
+        "gap_open": 5,
+        "gap_extend": 2,
+        "filter": "L;m;"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2",
+          "query_title": "Seq_2",
+          "query_len": 251,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|1397641798|ref|NR_156907.1|",
+                  "accession": "NR_156907",
+                  "title": "Faecalimonas umbilicata strain EGH7 16S ribosomal RNA, partial sequence",
+                  "taxid": 1912855
+                }
+              ],
+              "len": 1492,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 516,
+                  "hit_to": 766,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCAGTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGCAGCTAGAGTGTCGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTGCTGGACGATGACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||  | ||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|1441204227|ref|NR_157642.1|",
+                  "accession": "NR_157642",
+                  "title": "Merdimonas faecis strain BR31 16S ribosomal RNA, partial sequence",
+                  "taxid": 1653435
+                }
+              ],
+              "len": 1397,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 469,
+                  "hit_to": 719,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGGATAGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTTGACCTGGAGTGCTGGAGAGGCAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTGACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| |||||| |  |||||||||||||||||||||||||||||||||||||||||||||||||||||| || || |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|310975204|ref|NR_037068.1|",
+                  "accession": "NR_037068",
+                  "title": "[Clostridium] xylanolyticum strain DSM 6555 16S ribosomal RNA, partial sequence",
+                  "taxid": 29375
+                }
+              ],
+              "len": 1441,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 509,
+                  "hit_to": 759,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCTCTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGAGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|219846508|ref|NR_026100.1|",
+                  "accession": "NR_026100",
+                  "title": "[Clostridium] celerecrescens 18A 16S ribosomal RNA, partial sequence",
+                  "taxid": 1286362
+                }
+              ],
+              "len": 1499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 491,
+                  "hit_to": 741,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCACTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGTGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| | |||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|631251457|ref|NR_112654.1|",
+                  "accession": "NR_112654",
+                  "title": "[Clostridium] celerecrescens 18A 16S ribosomal RNA, partial sequence",
+                  "taxid": 1286362
+                }
+              ],
+              "len": 1215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 506,
+                  "hit_to": 756,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCACTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGTGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| | |||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|631250977|ref|NR_112174.1|",
+                  "accession": "NR_112174",
+                  "title": "[Clostridium] sphenoides JCM 1415 strain ATCC 19403 16S ribosomal RNA, partial sequence",
+                  "taxid": 1297793
+                }
+              ],
+              "len": 1504,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 510,
+                  "hit_to": 760,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCACTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGTGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| | |||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|265678424|ref|NR_028726.1|",
+                  "accession": "NR_028726",
+                  "title": "[Clostridium] algidixylanolyticum strain SPL73 16S ribosomal RNA, partial sequence",
+                  "taxid": 94868
+                }
+              ],
+              "len": 1502,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 516,
+                  "hit_to": 766,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCTCTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGAGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|219846817|ref|NR_026409.1|",
+                  "accession": "NR_026409",
+                  "title": "[Desulfotomaculum] guttoideum strain DSM 4024 16S ribosomal RNA, partial sequence",
+                  "taxid": 58134
+                }
+              ],
+              "len": 1495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.339,
+                  "score": 447,
+                  "evalue": 2.39739e-112,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 509,
+                  "hit_to": 759,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCACTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGTGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| | |||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|1193829163|ref|NR_147406.1|",
+                  "accession": "NR_147406",
+                  "title": "Mordavella massiliensis strain Marseille-P3246 16S ribosomal RNA, partial sequence",
+                  "taxid": 1871024
+                }
+              ],
+              "len": 1498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 399.831,
+                  "score": 442,
+                  "evalue": 2.92062e-111,
+                  "identity": 239,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 518,
+                  "hit_to": 768,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGGACCGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGCGGACCTGGAGTGCTGGAGAGGCAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTGACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| |||||| || ||||||||| |||||||||||||||||||||||||||||||||||||||||||  || || |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|507148045|ref|NR_102852.1|",
+                  "accession": "NR_102852",
+                  "title": "[Clostridium] saccharolyticum strain WM1 16S ribosomal RNA, partial sequence",
+                  "taxid": 84030
+                }
+              ],
+              "len": 1519,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 399.831,
+                  "score": 442,
+                  "evalue": 2.92062e-111,
+                  "identity": 239,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 516,
+                  "hit_to": 766,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCACTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGTGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| | ||| |||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|219846902|ref|NR_026494.1|",
+                  "accession": "NR_026494",
+                  "title": "[Clostridium] saccharolyticum strain WM1 16S ribosomal RNA, partial sequence",
+                  "taxid": 84030
+                }
+              ],
+              "len": 1499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 399.831,
+                  "score": 442,
+                  "evalue": 2.92062e-111,
+                  "identity": 239,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 504,
+                  "hit_to": 754,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCACTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGTGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| | ||| |||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|645322280|ref|NR_119068.1|",
+                  "accession": "NR_119068",
+                  "title": "[Clostridium] aerotolerans strain DSM 5434 16S ribosomal RNA, partial sequence",
+                  "taxid": 36832
+                }
+              ],
+              "len": 1470,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 396.224,
+                  "score": 438,
+                  "evalue": 3.55804e-110,
+                  "identity": 239,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 483,
+                  "hit_to": 732,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 1,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCTCTGCAAGTCTGGAGTGAAAGCC-GGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGAGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||| |||||||||| ||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|1384992332|ref|NR_156081.1|",
+                  "accession": "NR_156081",
+                  "title": "Kineothrix alysoides strain KNHs209 16S ribosomal RNA, partial sequence",
+                  "taxid": 1469948
+                }
+              ],
+              "len": 1411,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 395.322,
+                  "score": 437,
+                  "evalue": 1.24188e-109,
+                  "identity": 238,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 504,
+                  "hit_to": 754,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCAGGGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTCCAGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|1384992329|ref|NR_156078.1|",
+                  "accession": "NR_156078",
+                  "title": "Kineothrix alysoides strain KNHs209 16S ribosomal RNA, partial sequence",
+                  "taxid": 1469948
+                },
+                {
+                  "id": "gi|1384992330|ref|NR_156079.1|",
+                  "accession": "NR_156079",
+                  "title": "Kineothrix alysoides strain KNHs209 16S ribosomal RNA, partial sequence",
+                  "taxid": 1469948
+                }
+              ],
+              "len": 1412,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 395.322,
+                  "score": 437,
+                  "evalue": 1.24188e-109,
+                  "identity": 238,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 504,
+                  "hit_to": 754,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCAGGGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTCCAGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|559795307|ref|NR_104899.1|",
+                  "accession": "NR_104899",
+                  "title": "Bacteroides xylanolyticus strain X5-1 16S ribosomal RNA, partial sequence",
+                  "taxid": 384636
+                }
+              ],
+              "len": 1480,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 395.322,
+                  "score": 437,
+                  "evalue": 1.24188e-109,
+                  "identity": 238,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 496,
+                  "hit_to": 746,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGTTCTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGGAACTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||  ||||||||||| |||||||||||||||||||||||||||||||||||||||||||| || ||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|645322236|ref|NR_119035.1|",
+                  "accession": "NR_119035",
+                  "title": "[Clostridium] sphenoides JCM 1415 strain DSM 632 16S ribosomal RNA, partial sequence",
+                  "taxid": 1297793
+                }
+              ],
+              "len": 1515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 394.421,
+                  "score": 436,
+                  "evalue": 1.24188e-109,
+                  "identity": 240,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 515,
+                  "hit_to": 765,
+                  "hit_strand": "Plus",
+                  "align_len": 252,
+                  "gaps": 2,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTC-AGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCACTGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGG-ACTGCTTTGGAAACTGTGGTGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTCGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||| | |||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| ||||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|1193829153|ref|NR_147396.1|",
+                  "accession": "NR_147396",
+                  "title": "Lachnoclostridium pacaense strain Marseille-P3100 16S ribosomal RNA, partial sequence",
+                  "taxid": 1917870
+                }
+              ],
+              "len": 1453,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 390.814,
+                  "score": 432,
+                  "evalue": 1.51292e-108,
+                  "identity": 237,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 496,
+                  "hit_to": 746,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCGATGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGTGGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| |||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||| |||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|1384992331|ref|NR_156080.1|",
+                  "accession": "NR_156080",
+                  "title": "Kineothrix alysoides strain KNHs209 16S ribosomal RNA, partial sequence",
+                  "taxid": 1469948
+                }
+              ],
+              "len": 1410,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 390.814,
+                  "score": 432,
+                  "evalue": 1.51292e-108,
+                  "identity": 237,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 504,
+                  "hit_to": 754,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCAGGGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTCCGGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||| |||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|1384992328|ref|NR_156077.1|",
+                  "accession": "NR_156077",
+                  "title": "Kineothrix alysoides strain KNHs209 16S ribosomal RNA, partial sequence",
+                  "taxid": 1469948
+                }
+              ],
+              "len": 1412,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 390.814,
+                  "score": 432,
+                  "evalue": 1.51292e-108,
+                  "identity": 237,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 504,
+                  "hit_to": 754,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCAGGGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTCCGGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||| |||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|636559154|ref|NR_115211.1|",
+                  "accession": "NR_115211",
+                  "title": "[Clostridium] amygdalinum strain BR-10 16S ribosomal RNA, partial sequence",
+                  "taxid": 253257
+                }
+              ],
+              "len": 1485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 390.814,
+                  "score": 432,
+                  "evalue": 1.51292e-108,
+                  "identity": 237,
+                  "query_from": 1,
+                  "query_to": 251,
+                  "query_strand": "Plus",
+                  "hit_from": 501,
+                  "hit_to": 751,
+                  "hit_strand": "Plus",
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGACGGCACTGCAAGTCTGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTAGAGCTAGAGTGCTGGAGAGGCAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTGCTGGACAGTAACTGACGTTCAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGACGGCGATGCAAGTCTGGAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTGGAAACTGTGTTGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACGTTGAGGCTCGAAAGCGTGGGGAGCAAACA",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||| |||||||  |||||||||| ||||||||||||||||||||||||||||||||||||||||||||   |||||||||| ||||||| ||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||| |||||||||||| ||||||||||||||||||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 20767,
+            "db_len": 30197079,
+            "hsp_len": 25,
+            "eff_space": 6707206304,
+            "kappa": 0.41,
+            "lambda": 0.625,
+            "entropy": 0.78
+          }
+        }
+      }
+    }
+  }
+}

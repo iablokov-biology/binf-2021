@@ -1,0 +1,678 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.11.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "ncbi16s"
+      },
+      "params": {
+        "expect": 10,
+        "sc_match": 2,
+        "sc_mismatch": -3,
+        "gap_open": 5,
+        "gap_extend": 2,
+        "filter": "L;m;"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "Seq_1",
+          "query_len": 250,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|219856842|ref|NR_024661.1|",
+                  "accession": "NR_024661",
+                  "title": "Eubacterium ruminantium strain GA195 16S ribosomal RNA, partial sequence",
+                  "taxid": 42322
+                }
+              ],
+              "len": 1508,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.061,
+                  "score": 460,
+                  "evalue": 3.78213e-116,
+                  "identity": 242,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 529,
+                  "hit_to": 778,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGCATGGCAAGTCAGATGTGAAATGCCGGGGCTCAACCCCGGAACTGCATTTGAAACTGTCAAGCTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGACACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||| || ||||||||||||||| ||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|343202586|ref|NR_042953.1|",
+                  "accession": "NR_042953",
+                  "title": "Anaerosporobacter mobilis strain IMSNU 40011 16S ribosomal RNA, partial sequence",
+                  "taxid": 264463
+                }
+              ],
+              "len": 1390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 384.502,
+                  "score": 425,
+                  "evalue": 2.23543e-106,
+                  "identity": 235,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 476,
+                  "hit_to": 725,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGGTGGCATGGCAAGTCAGAAGTGAAAGCCCAGGGCTCAACCCTGGGACTGCTTTTGAAACTGTCAAGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||||| |  ||||||||||| ||||||||||||||||||||||| ||||||| ||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|943392602|ref|NR_117139.2|",
+                  "accession": "NR_117139",
+                  "title": "Anaerostipes hadrus strain DSM 3319 16S ribosomal RNA, partial sequence",
+                  "taxid": 649756
+                }
+              ],
+              "len": 1521,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.994,
+                  "score": 420,
+                  "evalue": 2.72332e-105,
+                  "identity": 234,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 514,
+                  "hit_to": 763,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAACCCAGGGCTTAACTCTGGGACTGCTTTTGAAACTGTCAGACTGGAGTGCAGGAGAGGTAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACATCAGTGGCGAAGGCGGCTTACTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||| ||| | |||||||||||||||||||||| ||| |||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|943392601|ref|NR_117138.2|",
+                  "accession": "NR_117138",
+                  "title": "Anaerostipes hadrus strain DSM 3319 16S ribosomal RNA, partial sequence",
+                  "taxid": 649756
+                }
+              ],
+              "len": 1521,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.994,
+                  "score": 420,
+                  "evalue": 2.72332e-105,
+                  "identity": 234,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 514,
+                  "hit_to": 763,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAACCCAGGGCTTAACTCTGGGACTGCTTTTGAAACTGTCAGACTGGAGTGCAGGAGAGGTAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACATCAGTGGCGAAGGCGGCTTACTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||| ||| | |||||||||||||||||||||| ||| |||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|631252121|ref|NR_113319.1|",
+                  "accession": "NR_113319",
+                  "title": "Anaerostipes butyraticus strain JCM 17466 16S ribosomal RNA, partial sequence",
+                  "taxid": 645466
+                }
+              ],
+              "len": 1495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.994,
+                  "score": 420,
+                  "evalue": 2.72332e-105,
+                  "identity": 234,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 518,
+                  "hit_to": 767,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGCGTAGGTGGCAGGGCAAGTCAGAAGTGAAAACCCGGGGCTCAACTCCGGGACTGCTTTTGAAACTGTCCAGCTGGAGTGCAGGAGAGGTAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACATCAGTGGCGAAGGCGGCTTACTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||| |||||||||||||||||||||||||||| | ||||||||||||||||||  | |||||||||| ||||||||||||||||||||||| | || |||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|559795210|ref|NR_104799.1|",
+                  "accession": "NR_104799",
+                  "title": "Anaerostipes hadrus strain DSM 3319 16S ribosomal RNA, partial sequence",
+                  "taxid": 649756
+                }
+              ],
+              "len": 1515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.994,
+                  "score": 420,
+                  "evalue": 2.72332e-105,
+                  "identity": 234,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 506,
+                  "hit_to": 755,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAACCCAGGGCTTAACTCTGGGACTGCTTTTGAAACTGTCAGACTGGAGTGCAGGAGAGGTAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACATCAGTGGCGAAGGCGGCTTACTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||| ||| | |||||||||||||||||||||| ||| |||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|636560803|ref|NR_116863.1|",
+                  "accession": "NR_116863",
+                  "title": "Anaerostipes butyraticus strain 35-7 16S ribosomal RNA, partial sequence",
+                  "taxid": 645466
+                }
+              ],
+              "len": 1381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.994,
+                  "score": 420,
+                  "evalue": 2.72332e-105,
+                  "identity": 234,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 506,
+                  "hit_to": 755,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGCGTAGGTGGCAGGGCAAGTCAGAAGTGAAAACCCGGGGCTCAACTCCGGGACTGCTTTTGAAACTGTCCAGCTGGAGTGCAGGAGAGGTAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACATCAGTGGCGAAGGCGGCTTACTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||| |||||||||||||||||||||||||||| | ||||||||||||||||||  | |||||||||| ||||||||||||||||||||||| | || |||| ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|219857405|ref|NR_024993.1|",
+                  "accession": "NR_024993",
+                  "title": "[Clostridium] fimetarium strain Z-2189 16S ribosomal RNA, partial sequence",
+                  "taxid": 99656
+                }
+              ],
+              "len": 1497,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.994,
+                  "score": 420,
+                  "evalue": 2.72332e-105,
+                  "identity": 234,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 517,
+                  "hit_to": 766,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGTGTAGGTGGCATGGCAAGTCAGAAGTGAAAGCCCGGGGCTCAACCCCGGGACTGCTTTTGAAACTGCCAAGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| | |||||||| ||||||||||||||||||||| | |||||||||||||||||||||||||||||||| ||| ||||||| ||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|559795252|ref|NR_104842.1|",
+                  "accession": "NR_104842",
+                  "title": "Eubacterium uniforme strain X3C39 16S ribosomal RNA, partial sequence",
+                  "taxid": 39495
+                }
+              ],
+              "len": 1458,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.485,
+                  "score": 415,
+                  "evalue": 1.15798e-103,
+                  "identity": 233,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 513,
+                  "hit_to": 762,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTATGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGCAAGGCAAGTCAGAAGTGAAAGCTCGGGGCTCAACCTCGGAACTGCTTTTGAAACTGCCAGGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGCGGCGAAGGCGGCTTACTGGACTGTAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "||||||||| ||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||   ||||||||||| ||| |||||||||||||||| ||  ||||||| ||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|343198925|ref|NR_044049.1|",
+                  "accession": "NR_044049",
+                  "title": "Coprococcus eutactus strain ATCC 27759 16S ribosomal RNA, partial sequence",
+                  "taxid": 33043
+                }
+              ],
+              "len": 1440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.485,
+                  "score": 415,
+                  "evalue": 1.15798e-103,
+                  "identity": 233,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 484,
+                  "hit_to": 733,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGCAAGGCAAGTCTGAAGTGAAAATCCGGGGCTCAACCCCGGAACTGCTTTGGAAACTGTTTAGCTAGAGTACAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACTGGACTGCTACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||| |||||||||  | ||||||||||||||| |||||||| ||||||||  | ||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||  |||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|265678610|ref|NR_028915.1|",
+                  "accession": "NR_028915",
+                  "title": "Anaerostipes caccae strain L1-92 16S ribosomal RNA, partial sequence",
+                  "taxid": 105841
+                }
+              ],
+              "len": 1456,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.485,
+                  "score": 415,
+                  "evalue": 1.15798e-103,
+                  "identity": 233,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 485,
+                  "hit_to": 734,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGCGTAGGTGGCATGGTAAGTCAGAAGTGAAAGCCCGGGGCTTAACCCCGGGACTGCTTTTGAAACTGTCATGCTGGAGTGCAGGAGAGGTAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTCACTGACACTGATGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||| |||||||||||||||||||||||||||| |||| |||||||||||||||| | |||||| ||||||||||||||||||||||||||||  || |||| ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  ||||||||||| |||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|1040567056|ref|NR_137405.1|",
+                  "accession": "NR_137405",
+                  "title": "Anaerobium acetethylicum strain GluBS11 16S ribosomal RNA, partial sequence",
+                  "taxid": 1619234
+                }
+              ],
+              "len": 1402,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 370.977,
+                  "score": 410,
+                  "evalue": 1.41071e-102,
+                  "identity": 232,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 475,
+                  "hit_to": 724,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGGTGGCATGGCAAGTCAGATGTGAAAGCCCGGGGCTCAACCCCGGGACTGCATTTGAAACTGCCAGGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||| ||||||| | ||||||||||||||||||||| |||||||||| ||  || |||| ||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|1397641803|ref|NR_156912.1|",
+                  "accession": "NR_156912",
+                  "title": "Defluviitalea raffinosedens strain A6 16S ribosomal RNA, partial sequence",
+                  "taxid": 1450156
+                }
+              ],
+              "len": 1413,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.468,
+                  "score": 405,
+                  "evalue": 5.9985e-101,
+                  "identity": 231,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 478,
+                  "hit_to": 727,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATCACTGGGTGTAAAGGGTGCGTAGGCGGTAGGGCAAGTCAGATGTGAAAGCCCGGGGCTCAACTCCGGGATTGCATTTGAAACTGTCTTACTAGAGTGCAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGTAACTGACGCTGAGGCACGAAAGCGTGGGGAGCGAAC",
+                  "midline": "|||||| || |||||||||||||||| | ||||||||||||||||||||||| |||| ||||||||||| ||||||| | |||||||||| |||||| ||| ||||||||||||  |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|645320791|ref|NR_117912.1|",
+                  "accession": "NR_117912",
+                  "title": "Defluviitalea saccharophila strain LIND6LT2 16S ribosomal RNA, partial sequence",
+                  "taxid": 879970
+                }
+              ],
+              "len": 1495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.468,
+                  "score": 405,
+                  "evalue": 5.9985e-101,
+                  "identity": 231,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 496,
+                  "hit_to": 745,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGAATCACTGGGTGTAAAGGGTGCGTAGGCGGTAGGGCAAGTCAGATGTGAAAGCCCGGGGCTCAACTCCGGGATTGCATTTGAAACTGTCTTACTAGAGTGCAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAAGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGTAACTGACGCTGAGGCACGAAAGCGTGGGGAGCGAAC",
+                  "midline": "|||||| || |||||||||||||||| | ||||||||||||||||||||||| |||| ||||||||||| ||||||| | |||||||||| |||||| ||| ||||||||||||  |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||| |||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|219846511|ref|NR_026103.1|",
+                  "accession": "NR_026103",
+                  "title": "[Clostridium] populeti strain 743A 16S ribosomal RNA, partial sequence",
+                  "taxid": 37658
+                }
+              ],
+              "len": 1489,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.468,
+                  "score": 405,
+                  "evalue": 5.9985e-101,
+                  "identity": 231,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 484,
+                  "hit_to": 733,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGGTGGCGTGGTAAGTCAGATGTGAAAGCCCGGGGCTCAACCCCGGGACTGCATTTGAAACTATCATGCTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| ||||||||||  ||| |||||||| ||||||| | ||||||||||||||||||||| ||||||||| |||  ||||||| ||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|1277396183|ref|NR_151894.1|",
+                  "accession": "NR_151894",
+                  "title": "Anaerotaenia torta strain FH052 16S ribosomal RNA, partial sequence",
+                  "taxid": 433293
+                }
+              ],
+              "len": 1479,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.468,
+                  "score": 405,
+                  "evalue": 5.9985e-101,
+                  "identity": 231,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 503,
+                  "hit_to": 752,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGGTGGTTCGGCAAGTCAGATGTGAAAGCCCGGGGCTCAACCCCGGGACTGCATTTGAAACTGTCGGGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| |||||||||||  ||||||||||| ||||||| | ||||||||||||||||||||| ||||||||||||   || |||| ||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|645321789|ref|NR_118673.1|",
+                  "accession": "NR_118673",
+                  "title": "[Eubacterium] hallii strain ATCC 27751 16S ribosomal RNA, partial sequence",
+                  "taxid": 39488
+                }
+              ],
+              "len": 1479,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.665,
+                  "score": 403,
+                  "evalue": 2.09368e-100,
+                  "identity": 230,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 522,
+                  "hit_to": 771,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTATGGAGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGCAGTGCAAGTCAGATGTGAAAGGCCGGGGCTCAACCCCGGNGCTGCATTTGAAACTGCWYRGCTAGAGTACAGGAGAGGCAGGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCCTGCTGGACTGTTACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "midline": "||||||||| ||||||||||||||||||||||||||||||||||||||||||||| |  |||||||||| ||||||||| |||||||||||||||  |||| ||||||||||     ||||||||||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||  |||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|645322302|ref|NR_119085.1|",
+                  "accession": "NR_119085",
+                  "title": "[Clostridium] polysaccharolyticum strain DSM 1801 16S ribosomal RNA, partial sequence",
+                  "taxid": 29364
+                }
+              ],
+              "len": 1503,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.763,
+                  "score": 402,
+                  "evalue": 2.09368e-100,
+                  "identity": 231,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 515,
+                  "hit_to": 762,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 2,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGCAGGTGGCGTGGCAAGTCAGAAGTGAAAGC--GGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCATGCTGGAGTGCAGGAGAGGCAGGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCCTGCTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| ||| ||||||  ||||||||||||||||||||   |||||||||||||||||||||||||||||||||||  || |||| ||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|1227086118|ref|NR_148620.1|",
+                  "accession": "NR_148620",
+                  "title": "Lachnotalea glycerini strain : DLD10 16S ribosomal RNA, partial sequence",
+                  "taxid": 1763509
+                }
+              ],
+              "len": 1207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.96,
+                  "score": 400,
+                  "evalue": 7.30767e-100,
+                  "identity": 230,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 363,
+                  "hit_to": 612,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGGTGGCATGGCAAGTCAGATGTGAAAACCCAGGGCTCAACCCTGGGACTGCATTTGAAACTGTCAGGCTGGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||| ||||||  |  ||||||||||| |||||||| |||||||||||||  || |||| ||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|444304227|ref|NR_074652.1|",
+                  "accession": "NR_074652",
+                  "title": "Lachnoclostridium phytofermentans strain ISDg 16S ribosomal RNA, partial sequence",
+                  "taxid": 66219
+                }
+              ],
+              "len": 1523,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.96,
+                  "score": 400,
+                  "evalue": 7.30767e-100,
+                  "identity": 230,
+                  "query_from": 1,
+                  "query_to": 250,
+                  "query_strand": "Plus",
+                  "hit_from": 515,
+                  "hit_to": 764,
+                  "hit_strand": "Plus",
+                  "align_len": 250,
+                  "gaps": 0,
+                  "qseq": "TACGTATGGTGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGTGCGTAGGTGGTATGGCAAGTCAGAAGTGAAAGGCTGGGGCTCAACCCCGGGACTGCTTTTGAAACTGTCAAACTAGAGTACAGGAGAGGAAAGCGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTTCTGGACTGAAACTGACACTGAGGCACGAAAGCGTGGGGAGCAAAC",
+                  "hseq": "TACGTAGGGGGCAAGCGTTATCCGGATTTACTGGGTGTAAAGGGAGCGTAGGTGGTAGGTCAAGTCAGATGTGAAAGCCCAGGGCTCAACCCTGGGACTGCATTTGAAACTGGCTTACTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGGCTTACTGGACTGTAACTGACACTGAGGCTCGAAAGCGTGGGGAGCAAAC",
+                  "midline": "|||||| || |||||||||||||||||||||||||||||||||| |||||||||||| | ||||||||| ||||||| |  ||||||||||| |||||||| |||||||||| |  |||||||| ||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||| ||||||||||||||||||||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 20767,
+            "db_len": 30197079,
+            "hsp_len": 25,
+            "eff_space": 6677528400,
+            "kappa": 0.41,
+            "lambda": 0.625,
+            "entropy": 0.78
+          }
+        }
+      }
+    }
+  }
+}

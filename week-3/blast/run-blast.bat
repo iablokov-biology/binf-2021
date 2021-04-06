@@ -1,0 +1,2 @@
+set BLASTDB=D:\job\ysu-bio\bioinf-course\github\binf-2021\week-3\blast\16s-db\
+D:\job\ysu-bio\bioinf-course\github\binf-2021\week-3\blast\blastn -db ncbi16s -query D:\job\ysu-bio\bioinf-course\github\binf-2021\week-3\blast\in\seq.fasta -out D:\job\ysu-bio\bioinf-course\github\binf-2021\week-3\blast\out\result.json -task blastn -outfmt 13 -max_target_seqs 20 -max_hsps 20 -word_size 4 -num_threads 4
