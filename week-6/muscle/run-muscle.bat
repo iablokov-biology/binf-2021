@@ -1,0 +1,1 @@
+muscle -in test.in.fasta -out test.out.fasta
